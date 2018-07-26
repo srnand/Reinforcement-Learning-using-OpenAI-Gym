@@ -21,3 +21,13 @@ appropriate actions at every timestep.
 Implementation<br/>
 * I have discretize the 4 states into [2,2,8,4] discrete states respectively and have maintained a specific range of values for each of the states. 
 * I have also used decaying exploration rate to decrease random exploration towards the end of the episodes.
+
+### Q-Learning (SARSAMAX) Cart Pole
+Q-Learning is a simple off-policy reinforcement learning
+algorithm in which the agent tries to learn the optimal policy following the current policy (epsilon-greedy) generating action from current state and transitions to the state using the action which has the max Q-value, which is the why it is also called SARSAMAX.
+
+I have implemented Q-learning for the Cart Pole problem, a classical environment provided by OpenAI gym. 
+
+Implementation<br/>
+* I have discretize the 4 states into [2,2,8,4] discrete states respectively and have maintained a specific range of values for each of the states. 
+* I have also used decaying exploration rate to decrease random exploration towards the end of the episodes.
