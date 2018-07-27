@@ -32,6 +32,10 @@ Implementation<br/>
 * I have discretize the 4 states into [2,2,8,4] discrete states respectively and have maintained a specific range of values for each of the states. 
 * I have also used decaying exploration rate to decrease random exploration towards the end of the episodes.
 
+Results:
+<br/>
+It looks from the graph that, the cart is able to balance the pole for the required amount of time almost constantly in about less than 2000 episodes for both algorithms. 
+
 ### SARSA Mountain Car
 
 Problem Goal:<br/>
@@ -56,4 +60,6 @@ Implementation<br/>
 * I have used decaying exploration rate to decrease random exploration towards the end of the episodes.
 * I have also used gradually increasing learning rate because as the exploration rate decreases, confidence level increases and more learning happens towards the end of the episodes.
 
-
+Results:
+<br/>
+It looks from the graph that, the car is able to reach the goal almost constantly in about less than 3000 episodes for both algorithms. 
