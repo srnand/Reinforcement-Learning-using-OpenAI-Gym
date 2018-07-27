@@ -49,3 +49,11 @@ Implementation<br/>
 * I have used decaying exploration rate to decrease random exploration towards the end of the episodes.
 * I have also used gradually increasing learning rate because as the exploration rate decreases, confidence level increases and more learning happens towards the end of the episodes.
 
+### Q-Learning (SARSAMAX) Mountain Car
+
+Implementation<br/>
+* I have discretize the 2 states into [20,20] discrete states respectively and have maintained a specific range of values for each of the states. 
+* I have used decaying exploration rate to decrease random exploration towards the end of the episodes.
+* I have also used gradually increasing learning rate because as the exploration rate decreases, confidence level increases and more learning happens towards the end of the episodes.
+
+
