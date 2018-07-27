@@ -31,3 +31,21 @@ I have implemented Q-learning for the Cart Pole problem, a classical environment
 Implementation<br/>
 * I have discretize the 4 states into [2,2,8,4] discrete states respectively and have maintained a specific range of values for each of the states. 
 * I have also used decaying exploration rate to decrease random exploration towards the end of the episodes.
+
+### SARSA Mountain Car
+
+Problem Goal:<br/>
+The Mountain Car Problem has 2 states at every time step, 
+>[**the position of the car**, <br/>**the car’s velocity**]
+
+and there are 3 actions which the cart can take [**going to the left**, **no action**,
+**going to the right**]. 
+
+The main goal is to make the car reach the goal(up-hill) taking
+appropriate actions at every timestep.
+
+Implementation<br/>
+* I have discretize the 2 states into [20,20] discrete states respectively and have maintained a specific range of values for each of the states. 
+* I have used decaying exploration rate to decrease random exploration towards the end of the episodes.
+* I have also used gradually increasing learning rate because as the exploration rate decreases, confidence level increases and more learning happens towards the end of the episodes.
+
