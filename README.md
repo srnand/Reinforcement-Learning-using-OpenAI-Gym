@@ -72,3 +72,10 @@ Implementation<br/>
 * Used decaying exploration rate to decrease random exploration towards the end of the episodes.
 * Used gradually increasing learning rate because as the exploration rate decreases, confidence level increases and more learning happens towards the end of the episodes.
 
+### Deep Q-Learning Cart Pole
+
+Implementation<br/>
+* Created 2 Deep Networks which takes state as input and outputs the Target Q-Value for respective actions in respective networks. 
+* Used Experience Replay which does off-line updates sampling batches from memory, and trains the network reducing the MSE.
+* Used decaying exploration rate to decrease random exploration towards the end of the episodes.
+* Explicitly for this problem, gave the reard of -10 if the done bool value is True and the timesteps is not 200. So the agent tries to avoid the bool value and keeps on balancing the pole on the cart.
